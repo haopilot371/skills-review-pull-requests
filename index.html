@@ -186,7 +186,7 @@
   // Increment and save score
   function incrementScore(type) {
     scores[type]++;
-    localStorage.setItem(type + 'Score', scores[type]);
+    localStorage.setItem(`${type}Score`, scores[type]);
   }
   
   // Update the scoreboard display
